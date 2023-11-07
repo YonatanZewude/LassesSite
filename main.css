@@ -28,6 +28,7 @@ p{
 }
 img{
   width:100%;
+  border-radius: 50%;
 }
 #img-container-food-1{
   width:50%;
@@ -45,5 +46,16 @@ img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#img-container-wine-1,#img-container-wine-2,#img-container-wine-3{
+  width:50%;
+}
+#wine{
+width:100%;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
