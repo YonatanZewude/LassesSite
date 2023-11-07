@@ -1,5 +1,5 @@
 body {
-  font-size: 16px; /* Increased the base font size for better readability */
+  font-size: 16px;
   margin: 0;
 }
 
@@ -11,6 +11,7 @@ body {
   color: #fff;
   text-align: center;
   padding: 100px 0;
+  padding-bottom: 20px;
   position: relative;
 }
 
@@ -25,19 +26,64 @@ body {
 }
 
 .header h1 {
-  font-size: 48px; /* Increased the heading font size */
+  font-size: 48px;
   margin: 0;
   text-transform: uppercase;
 }
 
 .header p {
-  font-size: 28px; /* Decreased the paragraph font size for better readability */
-  width: 70%; /* Adjusted the width for better text alignment */
-  margin: 0 auto; /* Centered the text horizontally */
+  font-size: 28px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .textContainer {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
-  padding: 20px; /* Added padding for better text container visibility */
+  padding: 20px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+button {
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.food-button {
+  background-color: #ff4136;
+  cursor: pointer;
+}
+
+.dog-button {
+  background-color: #2ecc40;
+  cursor: pointer;
+}
+
+.wine-button {
+  background-color: #ff851b;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
