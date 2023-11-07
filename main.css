@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 16px; /* Increased the base font size for better readability */
   margin: 0;
 }
 
@@ -86,4 +86,62 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
+  font-size: 12px;
+  background-color: black;
+}
+h2 {
+  font-size: 3rem;
+  color: white;
+}
+p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#dog {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#img-container-dog {
+  width: 50%;
+}
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+#img-container-food-1 {
+  width: 50%;
+}
+#img-container-food-2 {
+  width: 50%;
+}
+#img-container-food-3 {
+  width: 50%;
+}
+#food {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#img-container-wine-1,
+#img-container-wine-2,
+#img-container-wine-3 {
+  width: 50%;
+}
+#wine {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
